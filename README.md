@@ -1,19 +1,18 @@
 # Automation
-It's a home automation project code for esp8266. 
-:Author: subhradeep2002
-:Email: Myfamily9476@gmail.com
-:Date: 22/06/2022
-:Revision: version 1.3
-:License: Public Domain
 
-= Project: Automation
+It's a home automation project code for esp8266.
+
+1. :Author: subhradeep2002
+2. :Email: Myfamily9476@gmail.com
+3. :Date: 22/06/2022
+4. :Revision: version 1.3
+5. :License: Public Domain
+
+= Project: **Automation**
 
 Describe your project
 
 == Step 1: Installation
-Please describe the steps to install this project.
-
-For example:
 
 1. Open this file
 2. Edit as you like
