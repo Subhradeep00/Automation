@@ -29,15 +29,17 @@ Upload the code contained in this sketch on to your board
 === Folder structure
 
 ....
- sketch1                => Arduino sketch folder
-  ├── sketch1.ino       => main Arduino file
-  ├── schematics.png      => (optional) an image of the required schematics
-  ├── layout.png          => (optional) an image of the layout
-  └── ReadMe.adoc         => this file
+ Automation_main                => Arduino sketch folder
+  ├── Automation_main.ino       => main Arduino file
+  ├── arduino_secrets.h         => Address of WIFI and the secret key of the board
+  ├── sketch.json               => Device details, communication and wireless connection detais
+  ├── thingsProperties.h        => Assembly section
+  ├── schematics.png            => (optional) an image of the required schematics
+  └── ReadMe.adoc               => this file
 ....
 
 === License
-This project is released under a {License} License.
+This project is released under a  License.
 
 === BOM
 Add the bill of the materials you need for this project.
