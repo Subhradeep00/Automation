@@ -28,27 +28,31 @@ Upload the code contained in this sketch on to your board
 
 === Folder structure
 
-....
- Automation_main                => Arduino sketch folder
-  ├── Automation_main.ino       => main Arduino file
-  ├── arduino_secrets.h         => Address of WIFI and the secret key of the board
-  ├── sketch.json               => Device details, communication and wireless connection detais
-  ├── thingsProperties.h        => Assembly section
-  ├── schematics.png            => (optional) an image of the required schematics
-  └── ReadMe.adoc               => this file
+....          
+ Automation                     => Arduino sketch folder            
+  ├── Automation_main.ino       => main Arduino file         
+  ├── arduino_secrets.h         => Address of WIFI and the secret key of the board       
+  ├── sketch.json               => Device details, communication and wireless connection detais         
+  ├── thingsProperties.h        => Assembly section         
+  ├── schematics.png            => (optional) an image of the required schematics        
+  └── ReadMe.adoc               => this file     
 ....
 
 === License
-This project is released under a  License.
+This project is released under a GNU v3.0 License.
 
 === BOM
-Add the bill of the materials you need for this project.
-
-|===
-| ID | Part name      | Part number | Quantity
-| R1 | 10k Resistor   | 1234-abcd   | 10       
-| L1 | Red LED        | 2345-asdf   | 5        
-| A1 | Arduino Zero   | ABX00066    | 1        
+|===           
+| ID | Part name           | Quantity        
+| U1 | ESP8266             | 1       
+| RL1| 5V DC Relay         | 4          
+| L1 | 3.3V LED            | 5         
+| T1 | BC547               | 4        
+| R1 | 100ohm Resistor     | 4       
+| R2 | 1k Resistor         | 5        
+| D1 | 1N4007              | 5    
+| V1 | L7805CV             | 1  
+| C1 | 100mF 25V capacitor | 2  
 |===
 
 
